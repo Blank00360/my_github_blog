@@ -56,8 +56,7 @@
 ### 1. Install ESP32 Board Package
 
 - Go to `File > Preferences`  
-- Add this URL to **Additional Board Manager URLs**:
-(https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json) 
+- Add this URL to **Additional Board Manager URLs**:(https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json) 
 
 - Then go to `Tools > Board > Board Manager`  
 - Search for **ESP32** and install version `2.0.11`
@@ -158,3 +157,45 @@ if (bleMouse.isConnected()) {
 }
 }
 ```
+
+📲 Bluetooth Pairing
+Upload the sketch to the ESP32
+
+Open your computer’s Bluetooth settings
+
+Look for device named “BleMouse”
+
+Click Pair (no PIN required)
+
+Test movement, clicks, and scrolling!
+
+### 🧪 Testing Tips
+🕹️ Joystick → Move the cursor
+
+🔁 Rotate encoder → Scroll up/down
+
+🔘 Press joystick → Left-click
+
+🔘 Press encoder → Right-click
+
+### 💡 Ideas for Expansion
+Feature	How to Add
+OLED Display	Show cursor or scroll data
+DPI/Sensitivity	Adjust map() scale
+More Buttons	Add GPIOs for middle click, macros
+BLE Keyboard Mode	Use BleKeyboard library
+
+### 🧼 Troubleshooting
+Issue	Solution
+std::string compile error	Downgrade ESP32 core to 2.0.11
+No device in Bluetooth menu	Make sure BLE is supported + sketch uploaded
+Cursor too fast/slow	Tweak map() range for joystick
+Double-click issue	Add delay(100) after press/release
+
+### 🙌 Credits
+BLE Mouse Library by @T-vK
+
+Project developed with ❤️ using Arduino + ESP32
+
+### 📄 License
+This project is open source under the MIT License
