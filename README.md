@@ -11,7 +11,7 @@ Welcome to my collection of ESP32 tutorials, code examples, and DIY IoT projects
 | Date       | Title                                     | Tags                  |
 |------------|-------------------------------------------|-----------------------|
 | 2025-05-19 | [ESP32 Relay Web Control Project](posts/2025-05-19-esp32-relay-web-control.md) | `ESP32`, `Web`, `Relay`, `IoT` |
-| 2025-05-19 | [ESP32 Bluetooth mouse project ] (posts/2025-05-19-esp32-bluetooth_mouse.md)   | `ESP32`, `Web`, `Relay`, `IoT` |
+| 2025-05-19 | [ESP32 Bluetooth mouse project ](posts/2025-05-19-esp32-bluetooth_mouse.md)   | `ESP32`, `Web`, `Relay`, `IoT` |
 
 ---
 
