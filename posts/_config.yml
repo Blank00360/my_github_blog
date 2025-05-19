@@ -2,4 +2,4 @@ title: My ESP32 Blog
 description: A simple blog for ESP32 and IoT projects.
 baseurl: "" # Leave blank unless using a custom path
 url: "https://Blank00360.github.io"
-theme: minima
+theme: jekyll-theme-architect
